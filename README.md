@@ -8,8 +8,8 @@
 
 Clone Repository
 
-1. git clone
-2. Open the terminal/commandline prompt in MAC/Windows and navigate to the 'backOfficePortal-WebdriverIO' folder
+1. Open terminal/command prompt in MAC/Windows and git clone https://github.com/OmkarBasavaraju/backOfficePortal-WebdriverIO.git
+2. Navigate to the 'backOfficePortal-WebdriverIO' folder
 
 Install the dependencies:
 
