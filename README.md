@@ -25,8 +25,9 @@ Generate Allure report:
 
 ### Key Features
 
-- Behaviour Data Drivern
+- Behaviour Driven Development
 - WebdriverIO
 - Page Object Model
 - Cucumber
 - Allure Report
+- Typescript
