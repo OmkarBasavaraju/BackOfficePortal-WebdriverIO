@@ -1,0 +1,361 @@
+{
+  "uid" : "41bb1b276656968d",
+  "name" : "Verify submitted status of the application",
+  "fullName" : "As a user, I want to login to application and verify the submitted status of the application.Verify submitted status of the application",
+  "historyId" : "16ceb22d48a050db5a9e04a3d2e60ab",
+  "time" : {
+    "start" : 1642926122099,
+    "stop" : 1642926129209,
+    "duration" : 7110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the backOffice Portal login page",
+      "time" : {
+        "start" : 1642926122099,
+        "stop" : 1642926122828,
+        "duration" : 729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I login with username and password",
+      "time" : {
+        "start" : 1642926122828,
+        "stop" : 1642926123702,
+        "duration" : 874
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter the value:'okomkargb@gmail.com'",
+        "time" : {
+          "start" : 1642926123528,
+          "stop" : 1642926123528,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Enter the value:'Abcd1234#'",
+        "time" : {
+          "start" : 1642926123626,
+          "stop" : 1642926123626,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicked the element: '#auth_login_form_button'",
+        "time" : {
+          "start" : 1642926123702,
+          "stop" : 1642926123702,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on the Status button",
+      "time" : {
+        "start" : 1642926123702,
+        "stop" : 1642926125915,
+        "duration" : 2213
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked the element: '//div[contains(text(),\"Status\")]'",
+        "time" : {
+          "start" : 1642926125915,
+          "stop" : 1642926125915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I select submitted option from the status dropdown",
+      "time" : {
+        "start" : 1642926125915,
+        "stop" : 1642926126159,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked the element: '//div[contains(@class,'css-1uccc91-singleValue')]'",
+        "time" : {
+          "start" : 1642926126067,
+          "stop" : 1642926126067,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicked the element: '//div[contains(@id,\"option-3\")]'",
+        "time" : {
+          "start" : 1642926126159,
+          "stop" : 1642926126159,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I click on the apply button",
+      "time" : {
+        "start" : 1642926126159,
+        "stop" : 1642926126435,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked the element: '#filter_container_apply'",
+        "time" : {
+          "start" : 1642926126434,
+          "stop" : 1642926126434,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I click on the first row of the application",
+      "time" : {
+        "start" : 1642926126435,
+        "stop" : 1642926127210,
+        "duration" : 775
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked the element: '#root > div.Portal__Container-sc-kxq87q-0.jyqvoj > div > div.sc-eFubAy.cmhaKO > div > div > div.sc-ihnbgO.dWVYgZ > table > tbody > tr:nth-child(1) > td:nth-child(2) > div > div.sc-gsTCUz.hZkaVP > span'",
+        "time" : {
+          "start" : 1642926127210,
+          "stop" : 1642926127210,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I verify <statusText> text is displayed",
+      "time" : {
+        "start" : 1642926127210,
+        "stop" : 1642926128164,
+        "duration" : 954
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Comparing the two string 'Submitted' with 'Submitted'",
+        "time" : {
+          "start" : 1642926128164,
+          "stop" : 1642926128164,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "6b36acca764659c",
+        "name" : "Data Table",
+        "source" : "6b36acca764659c.csv",
+        "type" : "text/csv",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on the logout button",
+      "time" : {
+        "start" : 1642926128164,
+        "stop" : 1642926129209,
+        "duration" : 1045
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked the element: '#masthead_toggle_menu'",
+        "time" : {
+          "start" : 1642926128292,
+          "stop" : 1642926128292,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicked the element: '//span[contains(text(),\"Logout\")]'",
+        "time" : {
+          "start" : 1642926129209,
+          "stop" : 1642926129209,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a user, I want to login to application and verify the submitted status of the application"
+  }, {
+    "name" : "testClass",
+    "value" : "As a user, I want to login to application and verify the submitted status of the application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify submitted status of the application"
+  }, {
+    "name" : "package",
+    "value" : "As a user, I want to login to application and verify the submitted status of the application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41bb1b276656968d.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

@@ -1,0 +1,272 @@
+{
+  "uid" : "524f3494e77aac50",
+  "name" : "Verify header text and New button is displayed.",
+  "fullName" : "As a user, I want to login to application and verify the submitted status of the application.Verify header text and New button is displayed.",
+  "historyId" : "8110548c3aa6eea7479c7b41b2d4db9",
+  "time" : {
+    "start" : 1642935534907,
+    "stop" : 1642935545789,
+    "duration" : 10882
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the backOffice Portal login page",
+      "time" : {
+        "start" : 1642935534908,
+        "stop" : 1642935537038,
+        "duration" : 2130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I login with username and password",
+      "time" : {
+        "start" : 1642935537039,
+        "stop" : 1642935542173,
+        "duration" : 5134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter the value:'okomkargb@gmail.com'",
+        "time" : {
+          "start" : 1642935541049,
+          "stop" : 1642935541049,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Enter the value:'Abcd1234#'",
+        "time" : {
+          "start" : 1642935541610,
+          "stop" : 1642935541610,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicked the element: '#auth_login_form_button'",
+        "time" : {
+          "start" : 1642935542172,
+          "stop" : 1642935542172,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see a header text as <headerText>",
+      "time" : {
+        "start" : 1642935542173,
+        "stop" : 1642935545229,
+        "duration" : 3056
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Comparing the two string 'Applications' with 'Applications'",
+        "time" : {
+          "start" : 1642935545228,
+          "stop" : 1642935545228,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "9dc280dec573e899",
+        "name" : "Data Table",
+        "source" : "9dc280dec573e899.csv",
+        "type" : "text/csv",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I verify that New button is displayed in application tab with text <buttonText>",
+      "time" : {
+        "start" : 1642935545229,
+        "stop" : 1642935545289,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Comparing the two string 'New' with 'New'",
+        "time" : {
+          "start" : 1642935545288,
+          "stop" : 1642935545288,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "ed6195f00c791ebe",
+        "name" : "Data Table",
+        "source" : "ed6195f00c791ebe.csv",
+        "type" : "text/csv",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I click on the logout button",
+      "time" : {
+        "start" : 1642935545289,
+        "stop" : 1642935545789,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicked the element: '#masthead_toggle_menu'",
+        "time" : {
+          "start" : 1642935545489,
+          "stop" : 1642935545490,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicked the element: '//span[contains(text(),\"Logout\")]'",
+        "time" : {
+          "start" : 1642935545789,
+          "stop" : 1642935545789,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "As a user, I want to login to application and verify the submitted status of the application"
+  }, {
+    "name" : "testClass",
+    "value" : "As a user, I want to login to application and verify the submitted status of the application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify header text and New button is displayed."
+  }, {
+    "name" : "package",
+    "value" : "As a user, I want to login to application and verify the submitted status of the application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e04a40f63638515",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642926111486,
+        "stop" : 1642926122099,
+        "duration" : 10613
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "524f3494e77aac50.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "As a user, I want to login to application and verify the submitted status of the application",
+    "children" : [ {
+      "name" : "Verify header text and New button is displayed.",
+      "uid" : "524f3494e77aac50",
+      "parentUid" : "e63755f0ad41d19727e8ae591cac022b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642935534907,
+        "stop" : 1642935545789,
+        "duration" : 10882
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    }, {
+      "name" : "Verify submitted status of the application",
+      "uid" : "5458498cf61f8311",
+      "parentUid" : "e63755f0ad41d19727e8ae591cac022b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642935545790,
+        "stop" : 1642935552241,
+        "duration" : 6451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.99" ]
+    } ],
+    "uid" : "e63755f0ad41d19727e8ae591cac022b"
+  } ]
+}

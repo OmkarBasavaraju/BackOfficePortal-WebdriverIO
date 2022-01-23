@@ -1,0 +1,21 @@
+[ {
+  "uid" : "524f3494e77aac50",
+  "name" : "Verify header text and New button is displayed.",
+  "time" : {
+    "start" : 1642935534907,
+    "stop" : 1642935545789,
+    "duration" : 10882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5458498cf61f8311",
+  "name" : "Verify submitted status of the application",
+  "time" : {
+    "start" : 1642935545790,
+    "stop" : 1642935552241,
+    "duration" : 6451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

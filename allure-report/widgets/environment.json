@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "https://nextgenbo.demo.devtls.net" ],
+  "name" : "ENVIRONMENT URL"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "BROWSER"
+}, {
+  "values" : [ "darwin" ],
+  "name" : "Platform"
+} ]
