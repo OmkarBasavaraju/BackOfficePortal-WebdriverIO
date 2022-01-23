@@ -1,6 +1,6 @@
 ### Requirements(Prerequites)
 
-- node =16.13.x (Node must be installed,Latest is better)
+- node =16.13.x (Node must be installed)
 - npm >= 8.1.x (No need explicit installation,it comes with node)
 - Java (latest would be better, java is required to open Allure report)
 
