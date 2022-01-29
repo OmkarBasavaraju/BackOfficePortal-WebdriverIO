@@ -36,9 +36,7 @@ class ApplicationPages {
   }
 
   get submittedApplication() {
-    return $(
-      "#root > div.Portal__Container-sc-kxq87q-0.jyqvoj > div > div.sc-eFubAy.cmhaKO > div > div > div.sc-ihnbgO.dWVYgZ > table > tbody > tr:nth-child(1) > td:nth-child(2) > div > div.sc-gsTCUz.hZkaVP > span"
-    );
+    return $("//span[normalize-space()='EM-27Jan11']");
   }
 
   get submittedText() {
