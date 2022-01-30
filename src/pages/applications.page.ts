@@ -23,7 +23,7 @@ class ApplicationPages {
     return $('//div[contains(text(),"Status")]');
   }
 
-  get StatusDropdown() {
+  get statusDropdown() {
     return $("//div[contains(@class,'css-1uccc91-singleValue')]");
   }
 
@@ -45,7 +45,7 @@ class ApplicationPages {
     );
   }
 
-  get SubmittedDropdown() {
+  get submittedDropdown() {
     return $('//div[contains(@id,"option-3")]');
   }
 
@@ -73,10 +73,10 @@ class ApplicationPages {
   }
 
   async selectSubmittedStatus() {
-    await waitForDisplayed(this.StatusDropdown);
-    await clickElement(this.StatusDropdown);
-    await waitForDisplayed(this.SubmittedDropdown);
-    await clickElement(this.SubmittedDropdown);
+    await waitForDisplayed(this.statusDropdown);
+    await clickElement(this.statusDropdown);
+    await waitForDisplayed(this.submittedDropdown);
+    await clickElement(this.submittedDropdown);
   }
 
   async clickApplyButton() {
